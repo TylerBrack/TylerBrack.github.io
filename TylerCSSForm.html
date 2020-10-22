@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+*{
+        box-sizing: border-box;
+    }
+    
+select{
+ width: 100%;
+  padding: 12px 20px;
+  margin: 1rem auto;
+  border: 1px solid rgb(22, 22, 206);
+  color: blue;
+  background: teal;
+  border-radius: 1px;
+  
+}
+
+input[type=submit] {
+  font-size: 24px;
+  width: 100%;
+  background-color: rgba(45, 12, 192, 0.726);
+  color: rgb(220, 224, 228);
+  padding: 1px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=text]:focus{
+    border:2px solid rgb(124, 155, 241)
+    
+}
+input[type=text]{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 1rem auto;
+  border: 1px solid rgb(22, 22, 206);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input[type=checkbox]{
+    width: 10%;
+  margin: 1.5rem auto;
+  
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 1rem auto;
+  border: 2px solid rgb(22, 22, 206);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+input[type=url]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 1rem auto;
+  border: 2px solid rgb(22, 22, 206);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+input[type=submit]:hover {
+  background-color: #7e1d1d;
+}
+
+
+div {
+    
+    width: 30%;
+  border-radius: 35px;
+  background-color: #e5f7f0;
+  padding: 30px;
+  margin: 1rem auto;
+  color: black;
+}
+</style>
+<body>
+
+<h1>CSS Form</h1>
+
+<div>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    
+    <label for="Citizen">Current Citizen?</label> <br>
+    <label for="Citizen">Yes</label> 
+    <input type="checkbox" id="Citizen" name="Citizen"> 
+    <label for="Citizen">No</label> 
+    <input type="checkbox" id="Citizen" name="Citizen"> <br>
+    
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Email address..">
+    
+    <label for="url"> Uniform Resource Locator (URL)</label>
+    <input type="url" id="url" name="url" placeholder="url..">
+
+    <input type="submit" value="Enter">
+  </form>
+</div>
+
+</body>
+</html>

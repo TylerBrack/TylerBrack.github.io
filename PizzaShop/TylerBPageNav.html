@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Parallax Example</title>
+<link href="anchors-start.css" rel="stylesheet" />
+</head>
+<body>
+<nav>
+<ul id="main-nav" role="navigation">
+	<li><a href="#top">Top</a></li>
+	<li><a href="#about">About</a></li>
+	<li><a href="#history">History</a></li>
+	<li><a href="#menu">Menu</a></li>
+	<li><a href="#hours">Hours</a></li>
+	<li><a href="#reserve">Reservations</a></li>
+</ul>
+<div id="top">
+<h1>Dino's Pizza</h1>
+	<p>Bringing the best pizza's to Milwaukee since 1952.</p>
+	<img src="pizza.jpg" width="970" height="380" alt="Pizza"/> 
+	<div class="home"><a href="#main-nav">back to top...</a></div>
+</div>
+<div id="about">
+	<p>Pizzas are all we do.  As our Uncle Dino said; if you find something you are good at stick to it, and make it great!</p>
+	<ul>
+		<li>Eat in</li>
+		<li>Take out</li>
+		<li>Order delivery</li>
+	</ul>
+	
+</div>
+<div id="history">
+	<h2>History</h2>
+	<p>We are a family owned business in operation since 1952.  Our Uncle Dino started the family business in 1952 and 3 generations have now worked in the pizzeria. </p>
+	<p>We have been located in the same building in Milwaukee's trendy Brady Street neighborhood since inception.  Pizza is our passion and we hope to continue to share it with Milwaukee for years to come.</p>
+</div>
+<div class="home"><a href="#main-nav">back to top...</a></div>
+
+<div id="menu">
+	<h2>Menu</h2>
+	<table>
+		<th colspan="2" class="title">Pizza</th>
+		<tr>
+			<td colspan="2">The following are available in 12, 16, and 20 inch sizes.  We offer thin, medium, and thick crust styles. </td>
+		</tr>
+		<tr>
+			<th>Type</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td> Cheese</td>
+			<td> $10, $14, $18</td>
+		</tr>
+		<tr>
+			<td> Cheese & Pepperoni</td>
+			<td> $12, $16, $20</td>
+		</tr>
+		<tr>
+			<td> Cheese & Sausage</td>
+			<td> $12, $16, $20</td>
+		</tr>
+		<tr>
+			<td> Build your own</td>
+			<td> $11, $15, $17 + $1 per topping</td>
+		</tr>
+		<tr>
+			<td colspan="2"><strong>Optional toppings:</strong> black olives, green peppers, spinach, mushrooms, pineapple, chicken </td>
+		</tr>
+		<th colspan="2" class="title">Calzones (includes chips)</th>
+		<tr>
+			<th>Type</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td> Cheese & Sausage</td>
+			<td> $7</td>
+		</tr>
+		<tr>
+			<td> Cheesesteak</td>
+			<td> $8</td>
+		</tr>
+		<tr>
+			<td> Veggie</td>
+			<td> $8</td>
+		</tr>
+	</table>
+    <div class="home"><a href="#main-nav">back to top...</a></div>
+
+<div id="hours">
+	<h2>Hours</h2>
+	<ul>
+		<li>Sunday: closed</li>
+		<li>Monday: 10:30am - 11pm</li>
+		<li>Tuesday: 10:30am - 11pm</li>
+		<li>Wednesday: 10:30am - 11pm</li>
+		<li>Thursday: 10:30am - 11pm</li>
+		<li>Friday: 11am - 2pm</li>
+		<li>Saturday: 11am - 2pm</li>
+	</ul>
+	
+</div>
+<div class="home"><a href="#main-nav">back to top...</a></div>
+
+<div id="reservations">
+	<h2>Reservations</h2>
+	<p>414-229-1234</p>
+	<form id="reserve">
+		<label for ="date">Date</label> <input type="date" id="date"/><br>
+		<label for="guests">Number of guests</label> 
+		<select id="guests">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>8+</option>
+		</select><br>
+		<label for="time">Time (4pm -9pm):</label> <input type="text" id="time" size="30"/><br>
+		<label for="name">Name:</label> <input type="text" id="name" size="50"/><br>
+		<label for="phone">Phone Number: </label><input type="tel" id="phone"/><br>
+		<input type="submit" value="Submit Reservation"/>
+	</form>	
+</div>
+<div class="home"><a href="#main-nav">back to top...</a></div>
+
+<div id="footer"> &copy; 2018 Dino's Pizza Company | 123 Fake Street Milwaukee, WI 53201 | 414-229-1234 | dinos@gmail.com</div>
+</body>
+</html>

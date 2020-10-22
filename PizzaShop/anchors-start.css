@@ -1,0 +1,121 @@
+
+body{
+    width:1000px;
+    border: 10px solid #ff5733;
+	height:auto;
+	margin:auto;
+	box-sizing: border-box;
+    font-family: Georgia, serif;
+   
+}
+#top, #about, #history, #hours, #reservations, #reserve{
+	padding: 5px;
+}
+#main-nav{
+	background: #1f1d1c;
+	padding: .3em;
+	margin-top:0;
+	width:auto;
+	text-align: center;
+}
+#main-nav li{
+	display: inline-block;
+	list-style: none;
+	padding-right: .5em;
+	font-size: 1.3em;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:#fff;
+}
+#main-nav li a:link{
+	color:#fff;
+	text-decoration: none;
+}
+#main-nav li a:visited{
+	color:#fff;
+	text-decoration: none;
+}
+#main-nav li a:hover{
+	color:#fff;
+	background:#33dbff;
+}
+#main-nav li a:active{
+	color:#fff;
+	background: #000;
+}
+#main-nav li a:focus{
+	color:#fff;
+	background:#33dbff;
+}
+
+
+
+
+
+.home{
+    color: #ff5733;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.1em;
+    font-size: 16px;
+}
+.home a:link{
+	color: #ff5733;
+	text-decoration: none;
+}
+.home a:visited{
+	color: #ff5733;
+	text-decoration: none;
+}
+.home a:hover{
+    color: #33dbff;
+    text-decoration: underline;
+	
+}
+.home a:active{
+	color:#ff5733;
+	background: rgb(221, 213, 213);
+}
+.home a:focus{
+    color: #33dbff;
+    text-decoration: underline;
+
+}
+
+
+table{
+	border:1px solid #ccc;
+}
+.title{
+	background-color: #000;
+	color: #fff;
+}
+tr{
+	border:1px solid rgb(247, 241, 241);
+}
+td{
+	border:1px solid #ccc;
+	text-align: center;
+	padding:.25em;
+}
+#hours li{
+	line-height: 24px;
+	font-size: 1.1em;
+}
+#reserve{
+	border:1px solid #888;
+	padding: .5em;
+}
+#reserve input{
+	margin:10px auto 10px auto;
+}
+#reserve input:focus{
+	box-shadow: 2px 2px 1px #777;
+}
+#footer{
+	margin-top:25px;
+	margin-bottom: 20px;
+	background-color:#33dbff;
+	color:#ff5733;
+	text-align: center;
+	padding: 5px;
+}
